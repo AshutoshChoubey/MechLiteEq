@@ -7091,3 +7091,13 @@ ul,li{
 .hideSection{
 	visibility: hidden;
 }
+marquee.mrq-color{
+	color:#030562 !important;
+}
+.w-img-mrq{
+	visibility: hidden;
+}
+.hidelink{
+	visibility: hidden;
+}
+
