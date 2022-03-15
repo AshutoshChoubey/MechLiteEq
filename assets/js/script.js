@@ -10,6 +10,16 @@
 		}
 	}
 	
+	$('body > div.page-wrapper > header > div.header-lower > div > div > nav > div.navbar-collapse.collapse.clearfix > ul > li:nth-child(5)').hide()
+	$('body > div.page-wrapper > footer > div.widgets-section > div > div > div:nth-child(1) > div > div:nth-child(2) > div > div > ul > li:nth-child(2)').hide()
+	$('body > div.page-wrapper > footer > div.widgets-section > div > div > div:nth-child(1) > div > div:nth-child(2) > div > div > ul > li:nth-child(1)').hide()
+	$('body > div.page-wrapper > footer > div.widgets-section > div > div > div:nth-child(2) > div > div:nth-child(1)').hide()
+	$('body > div.page-wrapper > header > div.sticky-header.now-visible > div > div.right-col.pull-right > nav > div.navbar-collapse.collapse.clearfix > ul > li:nth-child(5)').hide()
+	$('body > div.page-wrapper > section.team-section.style-two.sec-pdd-80 > div').hide()
+	$('#certifications > div').hide()
+	$('body > footer > div.widgets-section > div > div > div:nth-child(2) > div > div:nth-child(1)').hide()
+	$('#international').hide()
+	$('form').hide()
 	
 	//Update header style + Scroll to Top
 	function headerStyle() {
