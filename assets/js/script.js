@@ -6,7 +6,7 @@
 	//Hide Loading Box (Preloader)
 	function handlePreloader() {
 		if($('.preloader').length){
-			$('.preloader').delay(200).fadeOut(300);
+			$('.preloader').delay(100).fadeOut(200);
 		}
 	}
 	
@@ -20,6 +20,8 @@
 	$('body > footer > div.widgets-section > div > div > div:nth-child(2) > div > div:nth-child(1)').hide()
 	$('#international').hide()
 	$('form').hide()
+	$('body > div.page-wrapper > footer > div.widgets-section > div > div > div:nth-child(1) > div > div:nth-child(1) > div > div.widget-content > a').hide()
+	$('body > div.page-wrapper > header > div.sticky-header.now-visible > div > div.right-col.pull-right > nav > div.navbar-collapse.collapse.clearfix > ul > li:nth-child(5)').hide()
 	
 	//Update header style + Scroll to Top
 	function headerStyle() {
